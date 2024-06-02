@@ -18,7 +18,7 @@ import jakarta.persistence.Table;
 public class User implements Serializable {
 
     @SuppressWarnings("unused")
-    private static final Long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
